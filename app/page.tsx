@@ -148,6 +148,13 @@ export default function Home() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
+              href="/Mbuyiselo-Thiya-CV.pdf"
+              download="Mbuyiselo-Thiya-CV.pdf"
+              className="rounded-md bg-white px-6 py-3 font-medium text-[#081629] transition hover:bg-orange-100"
+            >
+              Download CV ↓
+            </a>
+            <a
               href="https://github.com/Mbuyiselo1426"
               target="_blank"
               rel="noopener noreferrer"
