@@ -38,7 +38,7 @@ export default function Skills() {
           </h2>
 
           <p className="mt-4 max-w-2xl text-slate-600">
-            Technologies and tools I've used through academic,
+            Technologies and tools I&apos;ve used through academic,
             collaborative, and personal software development projects.
           </p>
         </div>

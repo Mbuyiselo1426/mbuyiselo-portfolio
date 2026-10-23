@@ -1,6 +1,7 @@
 import Image from "next/image";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 
 const links = [
   { label: "About", href: "#about" },
@@ -43,7 +44,6 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex min-h-screen items-center bg-[#081629] px-6 pt-24 text-white">
         <div className="mx-auto grid w-full max-w-6xl items-center gap-12 py-20 lg:grid-cols-2">
-
           {/* Left Side: Introduction */}
           <div className="max-w-2xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-orange-400">
@@ -131,18 +131,7 @@ export default function Home() {
       <Skills />
 
       {/* Featured Projects */}
-      <section
-        id="projects"
-        className="bg-white px-6 py-24 text-slate-900"
-      >
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">Featured Projects</h2>
-
-          <p className="mt-4 text-slate-600">
-            A selection of applications I&apos;ve built and contributed to.
-          </p>
-        </div>
-      </section>
+      <Projects />
 
       {/* Contact */}
       <section

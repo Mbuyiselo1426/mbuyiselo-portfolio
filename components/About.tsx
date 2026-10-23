@@ -23,7 +23,7 @@ export default function About() {
             </h3>
 
             <p className="mb-5 leading-8 text-slate-600">
-              I'm Mbuyiselo (Bob) Thiya, a software engineering
+              I&apos;m Mbuyiselo (Bob) Thiya, a software engineering
               student at WeThinkCode_ in Johannesburg, South Africa.
               My primary interests are backend development,
               software architecture, and cloud technologies.
@@ -32,14 +32,14 @@ export default function About() {
             <p className="mb-5 leading-8 text-slate-600">
               I enjoy working with Java, Spring Boot, REST APIs,
               and databases to build practical applications.
-              Through collaborative projects, I've gained
+              Through collaborative projects, I&apos;ve gained
               experience with version control, testing,
               debugging, and software development workflows.
             </p>
 
             <p className="leading-8 text-slate-600">
-              I'm also involved with the Africa Blockchain Club,
-              where I'm expanding my knowledge of Ethereum,
+              I&apos;m also involved with the Africa Blockchain Club,
+              where I&apos;m expanding my knowledge of Ethereum,
               decentralised applications, smart contracts,
               and blockchain infrastructure.
             </p>
