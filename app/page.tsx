@@ -1,4 +1,6 @@
 import Image from "next/image";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
 
 const links = [
   { label: "About", href: "#about" },
@@ -61,7 +63,7 @@ export default function Home() {
             </h2>
 
             <p className="mb-9 max-w-2xl text-lg leading-relaxed text-slate-400">
-              I'm a software engineering student at WeThinkCode_ in
+              I&apos;m a software engineering student at WeThinkCode_ in
               Johannesburg, South Africa. I build practical applications,
               develop RESTful APIs, and explore cloud and blockchain
               technologies.
@@ -110,7 +112,7 @@ export default function Home() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative h-72 w-72 overflow-hidden rounded-full border-4 border-orange-500 shadow-2xl shadow-orange-500/20 sm:h-80 sm:w-80 lg:h-96 lg:w-96">
               <Image
-                src="/images/profile.jpg"
+                src="/images/linkedIn.jpg"
                 alt="Mbuyiselo (Bob) Thiya"
                 fill
                 priority
@@ -119,37 +121,14 @@ export default function Home() {
               />
             </div>
           </div>
-
         </div>
       </section>
 
-      {/* About Me */}
-      <section
-        id="about"
-        className="bg-white px-6 py-24 text-slate-900"
-      >
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">About Me</h2>
+      {/* About Me - Reusable Component */}
+      <About />
 
-          <p className="mt-4 text-slate-600">
-            More about my software engineering journey coming soon.
-          </p>
-        </div>
-      </section>
-
-      {/* Technical Skills */}
-      <section
-        id="skills"
-        className="bg-slate-100 px-6 py-24 text-slate-900"
-      >
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">Technical Skills</h2>
-
-          <p className="mt-4 text-slate-600">
-            Technologies and tools I work with.
-          </p>
-        </div>
-      </section>
+      {/* Technical Skills - Reusable Component */}
+      <Skills />
 
       {/* Featured Projects */}
       <section
@@ -160,7 +139,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold">Featured Projects</h2>
 
           <p className="mt-4 text-slate-600">
-            A selection of applications I've built and contributed to.
+            A selection of applications I&apos;ve built and contributed to.
           </p>
         </div>
       </section>
@@ -171,7 +150,7 @@ export default function Home() {
         className="bg-[#081629] px-6 py-24 text-white"
       >
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold">Let's Connect</h2>
+          <h2 className="text-3xl font-bold">Let&apos;s Connect</h2>
 
           <p className="mt-4 text-slate-400">
             Open to junior developer opportunities, internships,
