@@ -35,7 +35,7 @@ export default function Home() {
             href="#contact"
             className="rounded-md border border-orange-500 px-4 py-2 text-sm font-medium text-orange-400 transition hover:bg-orange-500 hover:text-white"
           >
-            Let's Connect
+            Let&apos;s Connect
           </a>
         </nav>
       </header>
@@ -47,7 +47,7 @@ export default function Home() {
           {/* Left Side: Introduction */}
           <div className="max-w-2xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-orange-400">
-              Hello, I'm
+              Hello, I&apos;m
             </p>
 
             <h1 className="mb-6 text-5xl font-extrabold leading-tight tracking-tight md:text-6xl">
@@ -91,7 +91,7 @@ export default function Home() {
             {/* Technologies */}
             <div className="mt-14 flex flex-wrap gap-3 text-sm text-slate-400">
               <span className="rounded-md border border-slate-700 px-3 py-2">
-                Java & Spring Boot
+                Java &amp; Spring Boot
               </span>
 
               <span className="rounded-md border border-slate-700 px-3 py-2">
@@ -99,7 +99,7 @@ export default function Home() {
               </span>
 
               <span className="rounded-md border border-slate-700 px-3 py-2">
-                Docker & Cloud
+                Docker &amp; Cloud
               </span>
 
               <span className="rounded-md border border-slate-700 px-3 py-2">
@@ -124,10 +124,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Me - Reusable Component */}
+      {/* About Me */}
       <About />
 
-      {/* Technical Skills - Reusable Component */}
+      {/* Technical Skills */}
       <Skills />
 
       {/* Featured Projects */}
